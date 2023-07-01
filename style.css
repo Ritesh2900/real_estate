@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./image/home1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+   margin-top: 0%;
+    background-color: black;
+    overflow: hidden;
+}
+.navbar a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+}
+
+.navbar :hover{
+    border-bottom: 2px solid red;
+    transition: 3000;
+}
+#img1{
+    width: 90px;
+    height: 40px;
+    padding: auto;
+    
+
+    margin: 0%;
+    border: 1px solid black;
+    position: sticky;
+    
+    
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+}
+h1{
+    
+    TEXT-ALIGN: center;
+    margin-top:1%;
+    color: #f5f2ecf7;
+    font-size: 354%;
+}
+p{
+    margin-left: 37%;
+    margin-top: 2%;
+}
+#br2{
+    color: black;
+}
+button{
+    
+    font-size: 182%;
+    text-align: center;
+    margin-left: 43%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(214, 190, 39);
+    color: black;
+    margin-top: 6%;
+}
+.img home{
+    width: 100;
+}
+footer{
+
+    /* margin-left: 90%; */
+    border: 1px solid rgb(235, 230, 230);
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    
+  font-size: xx-large;
+    margin-left: 80%;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    margin-bottom:50px;
+   padding: 15px 10px;
+    height: 30px;
+}
+img{
+    width: 100%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border: 2px solid black;
+
+}
+#heading{color: black;
+
+}
+.name{
+    text-align: right;
+    margin-top:10%;
+    margin-right: 5%;
+    color: azure;
+}
+
